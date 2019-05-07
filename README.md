@@ -11,12 +11,13 @@ npm install
 # Documentação
 
 Tutorial WSDL: https://www.tutorialspoint.com/wsdl/wsdl_types.htm
+W3C WSDL: https://www.w3.org/TR/2001/NOTE-wsdl-20010315
 
 # WSDL Definitions
 ``` xml
 <definitions>
    <types>
-      definition of types........
+      definition of types, if you have some complex types........
    </types>
 
    <message>
