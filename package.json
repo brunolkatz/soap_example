@@ -1,0 +1,24 @@
+{
+  "name": "soap_example",
+  "version": "1.0.0",
+  "description": "NodeJs SOAP example",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "soap": "^0.27.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kidjapa/soap_example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kidjapa/soap_example/issues"
+  },
+  "homepage": "https://github.com/kidjapa/soap_example#readme"
+}

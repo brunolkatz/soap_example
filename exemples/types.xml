@@ -1,0 +1,33 @@
+    <!-- TYPES DEFINITIONS -->
+    <wsdl:types>
+
+        <xsd:schema attributeFormDefault="qualified" targetNamespace="urn:sap-com:document:sap:rfc:functions">
+
+            <!-- Example simples types -->
+            <xsd:simpleType name="char1">
+                <xsd:restriction base="xsd:string">
+                    <xsd:maxLength value="1"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+            <xsd:simpleType name="char10">
+                <xsd:restriction base="xsd:string">
+                    <xsd:maxLength value="10"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+            <xsd:simpleType name="char220">
+                <xsd:restriction base="xsd:string">
+                    <xsd:maxLength value="220"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+
+            <element name = "TradePriceRequest">
+                <complexType>
+                    <all>
+                        <element name = "tickerSymbol" type = "string"/>
+                    </all>
+                </complexType>
+            </element>
+
+        </xsd:schema>
+
+    </wsdl:types>
