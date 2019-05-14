@@ -16,17 +16,22 @@ var service = {
             getSmgw : function (args, getLastRecord)
             { 
                 console.log(args, getLastRecord);
-                dbConnect.getLastRecord(args); 
+                dbConnect.getLastRecord(args);
+                return true;
             },
             addSmgw : function (args, addRecord)
             { 
                 console.log(args, addRecord);
-                dbConnect.addRecord(args); 
+                dbConnect.addRecord(args);
+                return {'status': 'OK'};
             },
             deleteSmgw : function (args, deleteRecord)
             {
                 console.log(args, deleteRecord);
                 dbConnect.deleteRecord(args); 
+                deleteRecord({
+                    status: 'OK'
+                });
             } 
         }
     }

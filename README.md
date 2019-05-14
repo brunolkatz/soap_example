@@ -10,8 +10,9 @@ npm install
 
 # Documentação
 
-Tutorial WSDL: https://www.tutorialspoint.com/wsdl/wsdl_types.htm
-W3C WSDL: https://www.w3.org/TR/2001/NOTE-wsdl-20010315
+Tutorial WSDL: https://www.tutorialspoint.com/wsdl/wsdl_types.htm  
+W3C WSDL: https://www.w3.org/TR/2001/NOTE-wsdl-20010315   
+Simple Types: https://www.w3.org/2001/XMLSchema.xsd
 
 # WSDL Definitions
 ``` xml
