@@ -6,7 +6,7 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "mysql": "^2.17.1",
-    "soap": "^0.27.1"
+    "soap": "^0.30.0"
   },
   "devDependencies": {},
   "scripts": {
